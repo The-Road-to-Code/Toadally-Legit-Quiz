@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function DevCard({ name, image, bio, github, linkedin }) {
     return (
-        <div className="container mx-auto ">
+        <div className="container mx-auto">
             <div className=" max-w-sm rounded-lg overflow-hidden shadow-md h-full w-full bg-cream mb-4">
                 <div className="px-6 py-4 justify-center items-center h-full w-full">
                     <img

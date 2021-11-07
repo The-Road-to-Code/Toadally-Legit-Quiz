@@ -4,12 +4,8 @@ import DevCard from './DevCard';
 
 function Bio({ person }) {
     return (
-        <div className="mb-20 flex flex-col items-center py-20 px-20">
-            <h1 className="text-3xl font-Quicksand font-black mb-8">
-                Meet the Developers!
-            </h1>
-
-            <ul>
+        <div className="mb-20 flex items-center justify-center py-20 px-20">
+            <ul className="flex flex-wrap space-x-9 justify-center">
                 {person.map((item) => (
                     <li key={item.name}>
                         <DevCard
