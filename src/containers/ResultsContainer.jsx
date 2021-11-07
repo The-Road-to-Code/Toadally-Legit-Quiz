@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { getFrog, getToadals } from '../utils/quiz-results-helpers';
 import frogs from '../data/frogs';
 import TwitterButton from '../components/Results/TwitterButton';
@@ -9,6 +9,9 @@ export function ResultsContainer() {
         useContext(ResultsContext);
     const totalsArr = getToadals(answers, questions);
     const frog = getFrog(totalsArr, frogs);
+    useEffect(() => {
+        clearAnswers();
+    }, [ResultsContainer]);
 
     return (
         <>
