@@ -3,16 +3,9 @@ import React from 'react';
 
 function RadioOption({ answer, onChange }) {
     return (
-        <label htmlFor="quizAnswer">
-            <input
-                id={answer}
-                type="radio"
-                name="quizAnswer"
-                value={answer} // toadValue for answer
-                onChange={onChange}
-            />
-            {answer}
-        </label>
+        <li>
+            <button onClick={onChange}>{answer}</button>
+        </li>
     );
 }
 
