@@ -10,6 +10,9 @@ export function ResultsContainer() {
         useContext(ResultsContext);
     const totalsArr = getToadals(answers, questions);
     const frog = getFrog(totalsArr, frogs);
+    useEffect(() => {
+        clearAnswers();
+    }, [ResultsContainer]);
 
     useEffect(() => {
         (async () => {
