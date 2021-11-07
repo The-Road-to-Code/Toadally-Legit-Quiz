@@ -43,17 +43,20 @@
         "name": "Snow",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227674/frogs/Snow-Frog.png",
         "suggestedHobbies": ["Snowboarding", "Snowshoeing", "Sledding"],
+        "twitterImage": "https://twitter.com/_codeRunner_/status/1457099678223257604/photo/1",
         "summary": "You are Snow frog, you like snow"
     },
     {
         "name": "Rain",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227708/frogs/Rain-Frog.png",
         "suggestedHobbies": ["puddle jumping", "storm chasing"],
+        "twitterImage": "https://twitter.com/_codeRunner_/status/1457099187825246209/photo/1",
         "summary": "You are rain frog, you like rain"
     },
     {
         "name": "Star",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227745/frogs/Stars-Frog.png",
+        "twitterImage": "https://twitter.com/_codeRunner_/status/1457088007408807937/photo/1",
         "suggestedHobbies": ["astronomy", "star gazing"],
         "summary": "You are a star frog, you like star"
     }
