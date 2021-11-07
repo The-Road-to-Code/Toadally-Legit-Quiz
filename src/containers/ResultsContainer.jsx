@@ -20,7 +20,9 @@ export function ResultsContainer({ resultsArr }) {
                 <p>{frog.summary}</p>
                 <ul>
                     {frog.suggestedHobbies.map((hobby) => (
-                        <li key={hobby}>{hobby}</li>
+                        <li key={hobby.hobby}>
+                            <a href={hobby.url}>{hobby.hobbyType}</a>
+                        </li>
                     ))}
                 </ul>
                 <div>
