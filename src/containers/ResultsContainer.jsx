@@ -34,7 +34,7 @@ export function ResultsContainer() {
                     </p>
                     <ul className="p-5">
                         {frog.suggestedHobbies.map((hobby) => (
-                            <li key={hobby.hobby}>
+                            <li key={hobby.hobbyType}>
                                 <a
                                     className="font-Montserrat hover:bg-blue-400 hover:text-white"
                                     href={hobby.url}

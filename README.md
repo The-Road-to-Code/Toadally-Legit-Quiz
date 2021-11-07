@@ -75,7 +75,7 @@ Toadally Legit was an app built over a 24-hour period during the 2021 Road to Co
 <div align="center" style="border: solid 1px #fae8e0; border-radius: 10px; width: 500px; padding: 5px; margin: 5px;">
 <h3>Patrick Hrabos</h3>
 <img src="./src/assets/patrick.jpg" alt="Patrick Hrabos" width=100 />
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec varius lectus. Integer in scelerisque est, quis finibus ex. Phasellus egestas libero non libero pulvinar sodales. Vestibulum nisl neque, commodo vitae leo nec, gravida convallis metus. Pellentesque molestie non felis et tempus.</p>
+<p>Patrick is a software engineer with a background in public and private accounting and a proven track record of meeting deadlines and delivering impactful results. He is enthusiastic about using code to solve real-world problems. When he is not coding he likes to run long distances, observe nature, travel, and sip the best loose-leaf teas he can find.</p>
 
 <a href="https://github.com/phrabos">
 <img style="width: 50px; padding: 10px;" src="./src/assets/github.png" />
