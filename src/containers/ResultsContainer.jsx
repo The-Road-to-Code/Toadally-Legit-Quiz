@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import { getFrog, getToadals } from '../utils/quiz-results-helpers';
 import frogs from '../data/frogs';
+import { supabase } from '../utils/supabase';
 import TwitterButton from '../components/Results/TwitterButton';
 import { ResultsContext } from '../hooks/ResultsContextProvider';
 
@@ -13,11 +14,21 @@ export function ResultsContainer() {
     const totalsArr = getToadals(answers, questions);
     const frog = getFrog(totalsArr, frogs);
 
+    useEffect(() => {
+        (async () => {
+            await supabase.from('frogs').insert([{ frogname: frog.name }]);
+        })();
+    }, []);
+
     return (
         <>
-            <div className="flex justify-center p-10 bg-cream">
+            <div className="flex justify-center p-10">
                 <div className="flex flex-col max-w-3xl rounded shadow-lg h-full w-full p-10 bg-cream">
-                    <img className="w-full" src={frog.url} alt={frog.name} />
+                    <img
+                        className="rounded-lg"
+                        src={frog.url}
+                        alt={frog.name}
+                    />
                     <p className="p-5 font-Quicksand font-bold">
                         {frog.summary}
                     </p>
@@ -33,7 +44,7 @@ export function ResultsContainer() {
                             </li>
                         ))}
                     </ul>
-                    <div className="w-42 flex flex-wrap justify-center items-center space-x-8 mt-2">
+                    <div className="w-42 flex flex-wrap justify-center items-center space-x-4 space-y-2">
                         <TwitterButton frog={frog} />
                         <button
                             className="rounded-lg px-5 py-5 bg-gradient-to-r from-mint to-blue-500 text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"

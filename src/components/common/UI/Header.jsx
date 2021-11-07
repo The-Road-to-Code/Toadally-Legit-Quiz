@@ -15,6 +15,13 @@ const Header = () => {
                 <Link
                     onClick={clearAnswers}
                     className="p-4 font-Quicksand font-bold"
+                    to="/statistics"
+                >
+                    Frog Leaderboard
+                </Link>
+                <Link
+                    onClick={clearAnswers}
+                    className="p-4 font-Quicksand font-bold"
                     to="/about"
                 >
                     About Us
