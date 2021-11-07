@@ -27,7 +27,7 @@ function AboutContainer() {
         {
             name: 'Patrick Hrabos',
             image: require('../assets/patrick.jpg').default,
-            bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec varius lectus. Integer in scelerisque est, quis finibus ex. Phasellus egestas libero non libero pulvinar sodales. Vestibulum nisl neque, commodo vitae leo nec, gravida convallis metus. Pellentesque molestie non felis et tempus.',
+            bio: 'I am a software engineer with a background in public and private accounting and a proven track record of meeting deadlines and delivering impactful results. I am enthusiastic about using code to solve real-world problems. When I am not coding I like to run long distances, observe nature, travel, and sip the best loose-leaf teas I can find.',
             linkedin: 'https://www.linkedin.com/in/patrick-hrabos/',
             github: 'https://github.com/phrabos',
         },
