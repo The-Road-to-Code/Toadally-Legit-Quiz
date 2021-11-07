@@ -14,14 +14,10 @@ function Answers({ values, toadValues }) {
     const handleAnswer = (e) => {
         const { name, value } = e.target;
         console.log('selectedAnswer: ', `${name}: ${value}`);
-        console.log('====================================');
         console.log('Option: ', e.target);
-        console.log('====================================');
     };
 
-    console.log('====================================');
     console.log(toadValues);
-    console.log('====================================');
     return (
         <form onSubmit={handleSubmit}>
             {values.map((ans, idx) => (

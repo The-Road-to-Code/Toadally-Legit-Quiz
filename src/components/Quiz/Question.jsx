@@ -17,7 +17,7 @@ Question.propTypes = {
         answers: PropTypes.arrayOf(PropTypes.string),
         id: PropTypes.string,
         question: PropTypes.string,
-        toadValues: PropTypes.arrayOf(PropTypes.number),
+        toadValues: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.number)),
     }),
 };
 
