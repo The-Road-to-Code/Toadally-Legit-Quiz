@@ -3,7 +3,7 @@ import React from 'react';
 // import useQuiz from '../../hooks/useQuiz';
 import RadioOption from './RadioOption';
 
-function Answers({ values }) {
+function Answers({ values, toadValues }) {
     // const { handleChange, handleSubmit } = useQuiz();
 
     const handleSubmit = (e) => {
@@ -19,6 +19,9 @@ function Answers({ values }) {
         console.log('====================================');
     };
 
+    console.log('====================================');
+    console.log(toadValues);
+    console.log('====================================');
     return (
         <form onSubmit={handleSubmit}>
             {values.map((ans, idx) => (
@@ -30,6 +33,7 @@ function Answers({ values }) {
 }
 
 Answers.propTypes = {
+    toadValues: PropTypes.arrayOf(PropTypes.number).isRequired,
     values: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
