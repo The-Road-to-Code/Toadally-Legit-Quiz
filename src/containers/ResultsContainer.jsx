@@ -8,7 +8,8 @@ import TwitterButton from '../components/Results/TwitterButton';
 import { ResultsContext } from '../hooks/ResultsContextProvider';
 
 export function ResultsContainer() {
-    const { answers, questions, history } = useContext(ResultsContext);
+    const { answers, questions, history, clearAnswers } =
+        useContext(ResultsContext);
 
     const totalsArr = getToadals(answers, questions);
     const frog = getFrog(totalsArr, frogs);
@@ -28,7 +29,12 @@ export function ResultsContainer() {
                 </ul>
                 <div>
                     <TwitterButton frog={frog} />
-                    <button onClick={() => history.push('/')}>
+                    <button
+                        onClick={() => {
+                            clearAnswers();
+                            history.push('/');
+                        }}
+                    >
                         Retake Quiz
                     </button>
                 </div>
