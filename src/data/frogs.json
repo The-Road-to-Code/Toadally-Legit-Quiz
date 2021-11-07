@@ -21,7 +21,8 @@
             }
         ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457172028557971458/photo/1",
-        "summary": "Hello Picnic Frog! You love dining alfresco, cheap wine and good times. The best day is a sunny one with a killer sunset. You are a romantic at heart. Bugs are cool and not creepy. You also love checkered tablecloths. Your lucky number is 1"
+        "summary": "Hello Picnic Frog! You love dining alfresco, cheep wine and good times. The best day is a sunny one with a killer sunset. You are a romantic at heart. Bugs are cool and not creepy. You also love checkered tablecloths. Your lucky number is 1."
+
     },
     {
         "name": "Canoe",
@@ -45,10 +46,10 @@
             }
         ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457171853890383878/photo/1",
-        "summary": "Hello Canoe Frog! You love being on top of the water, floating, and chillin'. Sunny days on the lake are so fun. You like to go with the flow and take it easy. You probally like the color green. Paddle on my friend. Your lucky number is 3"
+        "summary": "Hello Canoe Frog! You love being on top of the water, floating, and chillin'. Sunny days on the lake are so fun. You like to go with the flow and take it easy. You probably like the color green. Paddle on my friend. Your lucky number is 3."
     },
     {
-        "name": "Halloween",
+        "name": "Theater",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227454/frogs/Halloween-Frog.png",
         "suggestedHobbies": [
             {
@@ -56,8 +57,8 @@
                 "url": "https://unpopcultures.com/intro-to-goth"
             },
             {
-                "hobbyType": "Fishing",
-                "url": "https://www.fisheries.noaa.gov/"
+                "hobbyType": "Sewing",
+                "url": "https://www.seamwork.com/"
             },
             {
                 "hobbyType": "Cosplay",
@@ -69,7 +70,7 @@
             }
         ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457171168356536325/photo/1",
-        "summary": "Hello Theater Frog!! You love to dress up, wear fun costumes! Must have glitter and sequins. Sometimes you make your own clothes, and throw the best theme parties! Everyone wants to ge on your guest list. You also dance the night away. Your lucky number is 62"
+        "summary": "Hello Theater Frog! You love to dress up, wear fun costumes! Must have glitter and sequins. Sometimes you make your own clothes, and throw the best theme parties! Everyone wants to be on your guest list. You also dance the night away. Your lucky number is 62."
     },
     {
         "name": "Car",
@@ -93,7 +94,7 @@
             }
         ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457170425658499079/photo/1",
-        "summary": "Hello Driving Frog! You love the wind, fast cars, and the open road. Why stay in one place, when there is so much to see. Gas up, petal to the metal and zooooommmmm! Your lucky number is 66"
+        "summary": "Hello Driving Frog! You love the wind, fast cars, and the open road. Why stay in one place, when there is so much to see. Gas up, pedal to the metal and zooooommmmm! Your lucky number is 66."
     },
     {
         "name": "Snorkel",
@@ -117,7 +118,7 @@
             }
         ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457169994945466368/photo/1",
-        "summary": "Hello Swimming Frog! You love being underwater, always! Looking at the pretty fish. Algae and rocks are pretty cool. You love getting lost. Life on land is so silly. Your lucky number is 2"
+        "summary": "Hello Swimming Frog! You love being underwater, always! Looking at the pretty fish. Algae and rocks are pretty cool. You love getting lost. Life on land is so silly. Your lucky number is 2."
     },
     {
         "name": "Camping",
@@ -141,7 +142,7 @@
             }
         ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457169188095627265/photo/1",
-        "summary": "Hello Camping Frog! You enjoy cold nights, and crisp mornings. Large green trees are the best trees. Birds everywhere! Camping gear is your go to. Plaid, fires, and turning off your phone are some of your favorite things."
+        "summary": "Hello Camping Frog! You enjoy cold nights, and crisp mornings. Large green trees are the best trees. Birds everywhere! Camping gear is your go to. Plaid, fires, and turning off your phone are some of your favorite things. Your lucky number is 83."
     },
     {
         "name": "Snow",
@@ -165,7 +166,7 @@
             }
         ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457099678223257604/photo/1",
-        "summary": "Hello Snow Frog! You enjoy the cold, snow, wearing beanies and fast adventure. You thrive in wearing lots of layers and drinking hot cocoa at the lodge. Your lucky number is 12.   "
+        "summary": "Hello Snow Frog! You enjoy the cold, snow, wearing beanies and fast adventure. You thrive in wearing lots of layers and drinking hot cocoa at the lodge. Your lucky number is 12."
     },
     {
         "name": "Rain",
@@ -213,6 +214,6 @@
             }
         ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457088007408807937/photo/1",
-        "summary": "Hello Star Frog. You like the darkness. Goth music and wearing all black. Sometimes happy, sometimes whatever, you just go with the flow. Aliens are real. Keep looking up, my friend. Your lucky number is 223"
+        "summary": "Hello Star Frog! You like the darkness. Goth music and wearing all black. Sometimes happy, sometimes whatever, you just go with the flow. Aliens are real. Keep looking up, my friend. Your lucky number is 223."
     }
 ]
