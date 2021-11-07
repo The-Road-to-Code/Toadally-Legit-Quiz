@@ -1,8 +1,8 @@
-import React from 'react';
-import useQuiz from '../hooks/useQuiz';
+import React, { useContext } from 'react';
+import { ResultsContext } from '../hooks/ResultsContextProvider';
 
 function QuizContainer() {
-    const { questions, answers, handleAnswer } = useQuiz();
+    const { answers, questions, handleAnswer } = useContext(ResultsContext);
 
     return (
         <section>

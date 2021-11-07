@@ -1,14 +1,21 @@
 [
     {
         "name": "Picnic",
-        "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227380/frogs/Canoe-Frog.png",
-        "suggestedHobbies": ["eating", "watching ants"],
+        "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227380/frogs/Picnic-Frog.png",
+        "suggestedHobbies": [
+            "eating",
+            "watching ants"
+        ],
         "summary": "You are a picnic frog. You like Picnics."
     },
     {
         "name": "Canoe",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227380/frogs/Canoe-Frog.png",
-        "suggestedHobbies": ["paddelling", "rowing", "watching ducks"],
+        "suggestedHobbies": [
+            "paddelling",
+            "rowing",
+            "watching ducks"
+        ],
         "summary": "You are a canoe frog, you like canoeing"
     },
     {
@@ -24,32 +31,51 @@
     {
         "name": "Car",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227498/frogs/Car-Frog.png",
-        "suggestedHobbies": ["driving", "road trips", "travel"],
+        "suggestedHobbies": [
+            "driving",
+            "road trips",
+            "travel"
+        ],
         "summary": "You are a car frog, you like cars"
     },
     {
         "name": "Snorkel",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227566/frogs/Swimming-Frog.png",
-        "suggestedHobbies": ["Scuba diving", "Underwater wrecks", "Surfacing"],
+        "suggestedHobbies": [
+            "Scuba diving",
+            "Underwater wrecks",
+            "Surfacing"
+        ],
         "summary": "You are a snorkel frog, you like snorkeling"
     },
     {
         "name": "Camping",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227621/frogs/Camping-Frog.png",
-        "suggestedHobbies": ["Fishing", "Board games", "Skipping stones"],
+        "suggestedHobbies": [
+            "Fishing",
+            "Board games",
+            "Skipping stones"
+        ],
         "summary": "You enjoy the cold nights, and crisp mornings, large green trees, camping gear, fire, stargazing, and turning off your phone."
     },
     {
         "name": "Snow",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227674/frogs/Snow-Frog.png",
-        "suggestedHobbies": ["Snowboarding", "Snowshoeing", "Sledding"],
+        "suggestedHobbies": [
+            "Snowboarding",
+            "Snowshoeing",
+            "Sledding"
+        ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457099678223257604/photo/1",
         "summary": "You enjoy the cold, snow, wearing beanies and fast adventure. You thrive in wearing lots of layers and drinking hot cocoa at the end of your adventure."
     },
     {
         "name": "Rain",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227708/frogs/Rain-Frog.png",
-        "suggestedHobbies": ["puddle jumping", "storm chasing"],
+        "suggestedHobbies": [
+            "puddle jumping",
+            "storm chasing"
+        ],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457099187825246209/photo/1",
         "summary": "You are rain frog, you like rain"
     },
@@ -57,7 +83,10 @@
         "name": "Star",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227745/frogs/Stars-Frog.png",
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457088007408807937/photo/1",
-        "suggestedHobbies": ["astronomy", "star gazing"],
+        "suggestedHobbies": [
+            "astronomy",
+            "star gazing"
+        ],
         "summary": "You are a star frog, you like star"
     }
 ]

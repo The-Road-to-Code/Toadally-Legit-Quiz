@@ -25,6 +25,7 @@ const useQuiz = () => {
         answers,
         handleAnswer,
         clearAnswers,
+        history,
     };
 };
 

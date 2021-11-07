@@ -1,17 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { getFrog, getToadals } from '../utils/quiz-results-helpers';
 import frogs from '../data/frogs';
-import questions from '../data/questions';
-import PropTypes from 'prop-types';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 
 // import HobbiesList from '../components/Results/HobbiesList';
 import TwitterButton from '../components/Results/TwitterButton';
+import { ResultsContext } from '../hooks/ResultsContextProvider';
 
-export function ResultsContainer({ resultsArr }) {
-    const totalsArr = getToadals(resultsArr, questions);
+export function ResultsContainer() {
+    const { answers, questions, history } = useContext(ResultsContext);
+
+    const totalsArr = getToadals(answers, questions);
     const frog = getFrog(totalsArr, frogs);
-    const history = useHistory();
+    // const history = useHistory();
 
     return (
         <>
@@ -33,7 +34,3 @@ export function ResultsContainer({ resultsArr }) {
         </>
     );
 }
-
-ResultsContainer.propTypes = {
-    resultsArr: PropTypes.array.isRequired,
-};
