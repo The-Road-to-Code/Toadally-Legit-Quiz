@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-function RadioOption({ answer, onChange }) {
+function RadioOption({ answer, value, onChange }) {
     return (
         <label htmlFor="quizAnswer">
             <input
-                id={answer}
+                id={value}
                 type="radio"
                 name="quizAnswer"
-                value={answer} // toadValue for answer
+                value={value} // toadValue for answer
                 onChange={onChange}
             />
             {answer}
@@ -19,6 +19,7 @@ function RadioOption({ answer, onChange }) {
 RadioOption.propTypes = {
     answer: PropTypes.string,
     onChange: PropTypes.func.isRequired,
+    value: PropTypes.number,
 };
 
 export default RadioOption;

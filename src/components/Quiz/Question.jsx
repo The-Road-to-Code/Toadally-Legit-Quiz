@@ -3,9 +3,9 @@ import React from 'react';
 import Answers from './Answers';
 
 function Question({ quest }) {
-    const { question, answers, toadValues } = quest;
+    const { id, question, answers, toadValues } = quest;
     return (
-        <article>
+        <article id={id}>
             <h3>{question}</h3>
             <Answers values={answers} toadValues={toadValues} />
         </article>

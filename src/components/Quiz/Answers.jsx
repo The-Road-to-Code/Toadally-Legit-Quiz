@@ -1,27 +1,31 @@
 import PropTypes from 'prop-types';
-import React from 'react';
+import React, { useState } from 'react';
 // import useQuiz from '../../hooks/useQuiz';
 import RadioOption from './RadioOption';
 
 function Answers({ values, toadValues }) {
-    // const { handleChange, handleSubmit } = useQuiz();
-
+    const [answers, setAnswers] = useState([]);
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('submitted');
+        console.log('answers: ', answers);
     };
 
     const handleAnswer = (e) => {
-        const { name, value } = e.target;
-        console.log('selectedAnswer: ', `${name}: ${value}`);
-        console.log('Option: ', e.target);
+        const { value } = e.target;
+        setAnswers((prev) => [...prev, { value }]);
+        console.log('selectedAnswer: ', value);
     };
 
     console.log(toadValues);
     return (
         <form onSubmit={handleSubmit}>
             {values.map((ans, idx) => (
-                <RadioOption answer={ans} onChange={handleAnswer} key={idx} />
+                <RadioOption
+                    answer={ans}
+                    onChange={handleAnswer}
+                    key={idx}
+                    value={idx}
+                />
             ))}
             <button>Submit</button>
         </form>
@@ -29,7 +33,8 @@ function Answers({ values, toadValues }) {
 }
 
 Answers.propTypes = {
-    toadValues: PropTypes.arrayOf(PropTypes.number).isRequired,
+    toadValues: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.number))
+        .isRequired,
     values: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
