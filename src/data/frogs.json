@@ -37,14 +37,14 @@
         "name": "Camping",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227621/frogs/Camping-Frog.png",
         "suggestedHobbies": ["Fishing", "Board games", "Skipping stones"],
-        "summary": "You are a camping frog, you like camping"
+        "summary": "You enjoy the cold nights, and crisp mornings, large green trees, camping gear, fire, stargazing, and turning off your phone."
     },
     {
         "name": "Snow",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227674/frogs/Snow-Frog.png",
         "suggestedHobbies": ["Snowboarding", "Snowshoeing", "Sledding"],
         "twitterImage": "https://twitter.com/_codeRunner_/status/1457099678223257604/photo/1",
-        "summary": "You are Snow frog, you like snow"
+        "summary": "You enjoy the cold, snow, wearing beanies and fast adventure. You thrive in wearing lots of layers and drinking hot cocoa at the end of your adventure."
     },
     {
         "name": "Rain",
