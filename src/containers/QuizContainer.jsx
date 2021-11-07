@@ -1,15 +1,21 @@
-import React from 'react';
-import Question from '../components/Quiz/Question.jsx';
-// import useQuiz from '../hooks/useQuiz';
-import questions from '../data/questions';
+import React, { useContext } from 'react';
+import { ResultsContext } from '../hooks/ResultsContextProvider';
 
 function QuizContainer() {
-    console.log(questions);
+    const { answers, questions, handleAnswer } = useContext(ResultsContext);
+
     return (
         <section>
-            {questions.map((quest, idx) => (
-                <Question key={`${quest.id}-${idx}`} quest={quest} />
-            ))}
+            <article>
+                <h3 className="m-12">{questions[answers.length].question}</h3>
+                <ul id="answers">
+                    {questions[answers.length].answers.map((answer, idx) => (
+                        <li key={idx} onClick={() => handleAnswer(idx)}>
+                            {answer}
+                        </li>
+                    ))}
+                </ul>
+            </article>
         </section>
     );
 }

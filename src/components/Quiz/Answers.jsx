@@ -1,41 +1,31 @@
-import PropTypes from 'prop-types';
-import React, { useState } from 'react';
-// import useQuiz from '../../hooks/useQuiz';
-import RadioOption from './RadioOption';
+// import PropTypes from 'prop-types';
+// import React from 'react';
+// // import useQuiz from '../../hooks/useQuiz';
+// import RadioOption from './RadioOption';
 
-function Answers({ values, toadValues }) {
-    const [answers, setAnswers] = useState([]);
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('answers: ', answers);
-    };
+// function Answers({ values, toadValues }) {
+//     // const { handleChange, handleSubmit } = useQuiz();
 
-    const handleAnswer = (e) => {
-        const { value } = e.target;
-        setAnswers((prev) => [...prev, { value }]);
-        console.log('selectedAnswer: ', value);
-    };
+//     const handleSubmit = (e) => {
+//         e.preventDefault();
+//         console.log('submitted');
+//     };
 
-    console.log(toadValues);
-    return (
-        <form onSubmit={handleSubmit}>
-            {values.map((ans, idx) => (
-                <RadioOption
-                    answer={ans}
-                    onChange={handleAnswer}
-                    key={idx}
-                    value={idx}
-                />
-            ))}
-            <button>Submit</button>
-        </form>
-    );
-}
+//     const handleAnswer = (e) => {
+//         const { name, value } = e.target;
+//         console.log('selectedAnswer: ', `${name}: ${value}`);
+//         console.log('Option: ', e.target);
+//     };
 
-Answers.propTypes = {
-    toadValues: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.number))
-        .isRequired,
-    values: PropTypes.arrayOf(PropTypes.string).isRequired,
-};
+//     console.log(toadValues);
+//     return (
 
-export default Answers;
+//     );
+// }
+
+// Answers.propTypes = {
+//     toadValues: PropTypes.arrayOf(PropTypes.number).isRequired,
+//     values: PropTypes.arrayOf(PropTypes.string).isRequired,
+// };
+
+// export default Answers;
