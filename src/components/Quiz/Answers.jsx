@@ -19,11 +19,15 @@ function Answers({ values, toadValues }) {
 
     console.log(toadValues);
     return (
-        <form onSubmit={handleSubmit}>
+        <form
+            className="grid overflow-hidden grid-cols-2 grid-rows-2 gap-1.5
+        "
+            onSubmit={handleSubmit}
+        >
             {values.map((ans, idx) => (
                 <RadioOption answer={ans} onChange={handleAnswer} key={idx} />
             ))}
-            <button>Submit</button>
+            <button className="mt-10">Submit</button>
         </form>
     );
 }

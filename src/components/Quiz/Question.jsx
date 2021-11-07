@@ -6,7 +6,7 @@ function Question({ quest }) {
     const { question, answers, toadValues } = quest;
     return (
         <article>
-            <h3>{question}</h3>
+            <h3 className="m-12">{question}</h3>
             <Answers values={answers} toadValues={toadValues} />
         </article>
     );
