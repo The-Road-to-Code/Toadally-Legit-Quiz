@@ -21,29 +21,27 @@ const StatisticsContainer = () => {
 
     return (
         <>
-            <h1>Global Frog Leaderboard</h1>
-            <div
-                style={{
-                    display: 'flex',
-                    flexWrap: 'wrap',
-                    width: '90vw',
-                    height: '90vh',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                }}
-            >
-                {frogData.map((frog) => (
-                    <figure key={frog.name}>
-                        <img
-                            src={frog.url}
-                            alt={frog.name}
-                            style={{ width: '200px', margin: '5px' }}
-                        />
-                        <figcaption>
-                            {frog.name} Frog Total: {count[frog.name]}
-                        </figcaption>
-                    </figure>
-                ))}
+            <div className="container mx-auto mb-8 bg-cream">
+                <h1 className="text-center font-Quicksand text-4xl mt-2">
+                    Toadal Frogs By Hoppy:
+                </h1>
+                <div>
+                    {frogData.map((frog) => (
+                        <figure
+                            className="flex flex-row justify-center items-center"
+                            key={frog.name}
+                        >
+                            <img
+                                src={frog.url}
+                                alt={frog.name}
+                                className="rounded-lg w-3/6 h-2/4 m-6 shadow-lg"
+                            />
+                            <figcaption className="font-Montserrat font-bold text-lg text-center">
+                                {frog.name} Frog Toadal: {count[frog.name]}
+                            </figcaption>
+                        </figure>
+                    ))}
+                </div>
             </div>
         </>
     );
