@@ -10,7 +10,7 @@ const Header = () => {
             </Link>
 
             <div className="pr-8">
-                <Link className="p-4" to="/about">
+                <Link className="p-4 font-Quicksand font-bold" to="/about">
                     About Us
                 </Link>
             </div>
