@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+<p align="center" style="margin-bottom: 0px !important;">
+<img src="./src/assets/froggy1.png" width=150 alt="sad swimming frog"/>
+</p>
+<h2 align="center" style="margin-top: 0px;">
+Toadally Legit Quiz<br>
+<img src="https://img.shields.io/netlify/07bfbb82-694e-4302-8bdc-2b9af72621f9?color=189ab4&style=plastic" alt="Netlify Build Badge" />
+<img src="https://img.shields.io/static/v1?label=Toadally&message=Legit&color=189ab4&style=plastic" alt="Toadally Legit" />
+</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+What is your new favorite Hoppy? Come find out with this super accurate, highly scientific quiz. Once you find your spirit sad frog, learn about all the new hoppys you can try with all of your new froggy friends. Then post your results on Twitter to expand your chorus of frogs!
+<br><br>
 
-## Available Scripts
+[Find Your Spirit Sad Frog Now](https://toadally-legit-quiz.netlify.app/)
 
-In the project directory, you can run:
+The incredible artwork for this project was graciously provided by [Cristina Aucone](http://www.cristinaaucone.com/)!
+<br>
+<br>
+©2021 SadFrogTM Cristina Aucone/Rootbound LLC. All rights reserved.
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<hr color="#189ab4" />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Background
 
-### `npm test`
+Toadally Legit was an app built over a 24-hour period during the 2021 Road to Code Hackathon, Powered by [Driveway](https://www.driveway.com) and Hosted by [Alchemy](https://www.alchemycodelab.com). The app was build with React, Context API, TailwindCSS, and hosted on Netlify. We wanted to build a fun, interactive quiz that would help bring people together and encourage them to try out new hobbies in a new, totally scientific way.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align="center" style="flex-direction: row">
 
-### `npm run build`
+## Meet the Toads Behind the Quiz
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align="center" style="border: solid 1px #ef7c8e; border-radius: 10px; width: 500px; padding: 5px; margin: 5px;">
+<h3>Josie Cantu</h3>
+<img src="./src/assets/josie.jpeg" alt="Josie Cantu" width=100 />
+<p>Josie M. Cantu is a Software Engineer who is driven by her curiosity and desire to develop her skills. She thrives in a team setting and loves collaboration. She is a dog lover and dog mom to Noey.</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a href="https://github.com/JosieMCantu">
+<img style="width: 50px; padding: 10px;" src="./src/assets/github.png" />
+</a>
+<a href="https://www.linkedin.com/in/josiemcantu">
+<img style="width: 50px; padding: 10px;" src="./src/assets/linkedin.png" />
+</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</div>
 
-### `npm run eject`
+<div align="center" style="border: solid 1px #189ab4; border-radius: 10px; width: 500px; padding: 5px; margin: 5px;">
+<h3>Juli Vela</h3>
+<img src="./src/assets/juli.jpg" alt="Juli Vela" width=100 />
+<p>Juli is a quirky, neurodiverent software engineer based out of beautiful Bandon-By-The-Sea in Southern Oregon! Driven by their passion for learning and creativity, they strive to stay active and current with new technologies. Using their unique perspective of the world, they enjoy combining their passions for astronomy, creativity, and social wellbeing, with their love and expertise in software development.</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<a href="https://github.com/juliannevela">
+<img style="width: 50px; padding: 10px;" src="./src/assets/github.png" />
+</a>
+<a href="https://www.linkedin.com/in/juliannevela">
+<img style="width: 50px; padding: 10px;" src="./src/assets/linkedin.png" />
+</a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<div align="center" style="border: solid 1px #d4f1f4; border-radius: 10px; width: 500px; padding: 5px; margin: 5px;">
+<h3>Nicole Martin</h3>
+<img src="./src/assets/nicole.png" alt="Nicole Martin" width=100 />
+<p>Nicole is a full stack software engineer located in Portland, OR. She enjoys working with computers and collaborating on fun and impactful projects that will help the planet, animals, and all humans. Also a huge fan of vegan food, coffee and being outside in the beautiful Pacific Northwest with her dog, Cooper.</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<a href="https://github.com/nicole-m-martin">
+<img style="width: 50px; padding: 10px;" src="./src/assets/github.png" />
+</a>
+<a href="https://www.linkedin.com/in/nicolemartinpdx/">
+<img style="width: 50px; padding: 10px;" src="./src/assets/linkedin.png" />
+</a>
 
-## Learn More
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div align="center" style="border: solid 1px #fae8e0; border-radius: 10px; width: 500px; padding: 5px; margin: 5px;">
+<h3>Patrick Hrabos</h3>
+<img src="./src/assets/patrick.jpg" alt="Patrick Hrabos" width=100 />
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec varius lectus. Integer in scelerisque est, quis finibus ex. Phasellus egestas libero non libero pulvinar sodales. Vestibulum nisl neque, commodo vitae leo nec, gravida convallis metus. Pellentesque molestie non felis et tempus.</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/phrabos">
+<img style="width: 50px; padding: 10px;" src="./src/assets/github.png" />
+</a>
+<a href="https://www.linkedin.com/in/patrick-hrabos/">
+<img style="width: 50px; padding: 10px;" src="./src/assets/linkedin.png" />
+</a>
 
-### Code Splitting
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div align="center" style="border: solid 1px #fcb5ac; border-radius: 10px; width: 500px; padding: 5px; margin: 5px;">
+<h3>Paul Brubaker</h3>
+<img src="./src/assets/paul.jpg" alt="Paul Brubaker" width=100 />
+<p>Paul is a full stack software engineer who loves to collaborate on interesting problems.</p>
 
-### Analyzing the Bundle Size
+<a href="https://github.com/p-brubaker">
+<img style="width: 50px; padding: 10px;" src="./src/assets/github.png" />
+</a>
+<a href="https://www.linkedin.com/in/paul-brubaker-a94597176/">
+<img style="width: 50px; padding: 10px;" src="./src/assets/linkedin.png" />
+</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+</div>
 
-### Making a Progressive Web App
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<hr color="#d8a7b1"/>
 
-### Advanced Configuration
+## Attributions and Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
