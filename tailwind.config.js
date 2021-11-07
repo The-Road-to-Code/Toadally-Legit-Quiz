@@ -12,10 +12,19 @@ module.exports = {
                     DEFAULT: '#EF7C8E',
                 },
                 cream: {
-                    DEFAULT: '#FAE8E0',
+                    DEFAULT: '#FFFEF2',
                 },
                 green: {
                     DEFAULT: '#3D5B59',
+                },
+                mint: {
+                    DEFAULT: '#B5E5CF',
+                },
+                bluegreen: {
+                    DEFAULT: '#75E6DA',
+                },
+                babyblue: {
+                    DEFAULT: '#D4F1F4',
                 },
             },
         },
