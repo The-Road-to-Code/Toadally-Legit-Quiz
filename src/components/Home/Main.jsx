@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Main = () => {
     return (
-        <div className="flex flex-col justify-center items-center bg-cream h-screen">
+        <div className="flex flex-col justify-center items-center bg-cream h-4/5">
             <h1 className="m-10 font-black font-Quicksand lg:text-6xl sm:text-3xl text-2xl tracking-widest">
                 Toadally Legit Quiz!
             </h1>
