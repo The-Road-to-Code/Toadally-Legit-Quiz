@@ -18,18 +18,18 @@ function AboutContainer() {
             github: 'https://github.com/nicole-m-martin',
         },
         {
-            name: 'Paul Brubaker',
-            image: require('../assets/paul.jpg').default,
-            bio: 'I am a full stack software engineer who loves to collaborate on interesting problems.',
-            linkedin: 'https://www.linkedin.com/in/paul-brubaker-a94597176/',
-            github: 'https://github.com/p-brubaker',
-        },
-        {
             name: 'Patrick Hrabos',
             image: require('../assets/patrick.jpg').default,
             bio: 'I am a software engineer with a background in public and private accounting and a proven track record of meeting deadlines and delivering impactful results. I am enthusiastic about using code to solve real-world problems. When I am not coding I like to run long distances, observe nature, travel, and sip the best loose-leaf teas I can find.',
             linkedin: 'https://www.linkedin.com/in/patrick-hrabos/',
             github: 'https://github.com/phrabos',
+        },
+        {
+            name: 'Paul Brubaker',
+            image: require('../assets/paul.jpg').default,
+            bio: 'I am a full stack software engineer who loves to collaborate on interesting problems.',
+            linkedin: 'https://www.linkedin.com/in/paul-brubaker-a94597176/',
+            github: 'https://github.com/p-brubaker',
         },
         {
             name: 'Josie M. Cantu',
@@ -41,8 +41,13 @@ function AboutContainer() {
     ];
 
     return (
-        <div>
+        <div className="flex flex-col">
+            <div className="flex flex-col items-center mt-5">
+            <h1 className="text-3xl font-Quicksand font-black mb-8">
+                Meet the Developers!
+            </h1>
             <Bio person={person} />
+            </div>
         </div>
     );
 }
