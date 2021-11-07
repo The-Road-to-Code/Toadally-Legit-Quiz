@@ -25,15 +25,15 @@ const Main = () => {
                 <h3 className="mt-3 font-Montserrat font-bold">
                     Post your results on Twitter to expand your frog community!
                 </h3>
+                <div className="pb-2">
+                    <Link
+                        className=" font-Quicksand hover:text-white mt-10 py-6 px-10 bg-gradient-to-r from-mint to-blue-500 hover:from-pink rounded-full text-3xl transition duration-300 ease-in-out flex items-center animate-bounce"
+                        to="/quiz"
+                    >
+                        Start Quiz
+                    </Link>
+                </div>
             </section>
-            <div className="pb-10">
-                <Link
-                    className=" font-Quicksand hover:text-white mt-10 py-6 px-10 bg-gradient-to-r from-mint to-blue-500 hover:from-pink rounded-full text-3xl transition duration-300 ease-in-out flex items-center animate-bounce"
-                    to="/quiz"
-                >
-                    Start Quiz
-                </Link>
-            </div>
         </div>
     );
 };
