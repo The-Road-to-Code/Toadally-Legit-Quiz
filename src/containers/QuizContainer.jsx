@@ -3,7 +3,6 @@ import { ResultsContext } from '../hooks/ResultsContextProvider';
 
 function QuizContainer() {
     const { answers, questions, handleAnswer } = useContext(ResultsContext);
-
     return (
         <section>
             <article className=" h-screen">

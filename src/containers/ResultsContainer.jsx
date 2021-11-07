@@ -8,11 +8,11 @@ import { ResultsContext } from '../hooks/ResultsContextProvider';
 export function ResultsContainer() {
     const { answers, questions, history, clearAnswers } =
         useContext(ResultsContext);
+    useEffect(() => {
+        return () => clearAnswers();
+    }, []);
     const totalsArr = getToadals(answers, questions);
     const frog = getFrog(totalsArr, frogs);
-    useEffect(() => {
-        clearAnswers();
-    }, [ResultsContainer]);
 
     useEffect(() => {
         (async () => {
