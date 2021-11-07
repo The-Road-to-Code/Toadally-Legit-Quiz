@@ -7,6 +7,7 @@ import QuizContainer from './containers/QuizContainer';
 import { ResultsContainer } from './containers/ResultsContainer';
 import AboutContainer from './containers/AboutContainer';
 import { ResultsContextProvider } from './hooks/ResultsContextProvider';
+import StatisticsContainer from './containers/StatisticsContainer';
 
 function App() {
     return (
@@ -22,6 +23,9 @@ function App() {
                         <Route exact path="/quiz" component={QuizContainer} />
                         <Route exact path="/results">
                             <ResultsContainer />
+                        </Route>
+                        <Route exact path="/statistics">
+                            <StatisticsContainer />
                         </Route>
                     </Switch>
                     <Footer />
