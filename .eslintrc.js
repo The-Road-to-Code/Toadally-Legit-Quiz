@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     env: {
         browser: true,
         es2021: true,
@@ -8,7 +8,7 @@ module.exports = {
         ecmaFeatures: {
             jsx: true,
         },
-        ecmaVersion: 13,
+        ecmaVersion: 12,
         sourceType: 'module',
     },
     plugins: ['react'],
