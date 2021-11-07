@@ -12,20 +12,19 @@ export function ResultsContainer() {
     return (
         <>
             <div className="flex justify-center p-10">
-                <div className="flex flex-col max-w-3xl rounded shadow-lg h-full w-full p-10">
+                <div className="flex flex-col max-w-3xl rounded shadow-lg h-full w-full p-10 bg-cream">
                     <img className="w-full" src={frog.url} alt={frog.name} />
-                    <p className="p-5">{frog.summary}</p>
+                    <p className="p-5 font-Quicksand font-bold">{frog.summary}</p>
                     <ul className="p-5">
                         {frog.suggestedHobbies.map((hobby) => (
                             <li key={hobby.hobby}>
-                                <a href={hobby.url}>{hobby.hobbyType}</a>
+                                <a className="font-Montserrat hover:bg-blue-400 hover:text-white" href={hobby.url}>{hobby.hobbyType}</a>
                             </li>
                         ))}
                     </ul>
-                    <div className="w-22">
+                    <div className="w-42 flex flex-wrap justify-center items-center space-x-8 mt-2">
                         <TwitterButton frog={frog} />
-                        <br/>
-                        <button onClick={() => {
+                        <button className="rounded-lg px-5 py-5 bg-gradient-to-r from-mint to-blue-500 text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" onClick={() => {
                                 clearAnswers();
                                 history.push('/');
                             }}
