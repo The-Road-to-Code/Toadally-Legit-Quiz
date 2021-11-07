@@ -1,19 +1,19 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import questions from '../data/questions.json';
 
 const useQuiz = () => {
     const [answers, setAnswers] = useState([]);
-    useHistory();
-
-    useEffect(() => {
-        if (answers.length === questions.length) {
-            history.pushState('/results');
-        }
-    }, [answers]);
+    const history = useHistory();
 
     const handleAnswer = (value) => {
-        setAnswers([...answers, value]);
+        // setAnswers([...answers, value]);
+        if (answers.length + 1 === questions.length) {
+            setAnswers((prev) => [...prev, value]);
+            history.push('/results');
+        } else {
+            setAnswers((prev) => [...prev, value]);
+        }
     };
 
     const clearAnswers = () => {
@@ -25,6 +25,7 @@ const useQuiz = () => {
         answers,
         handleAnswer,
         clearAnswers,
+        history,
     };
 };
 
