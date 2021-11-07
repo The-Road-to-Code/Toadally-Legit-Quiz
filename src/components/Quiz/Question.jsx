@@ -2,21 +2,22 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Answers from './Answers';
 
-function Question({ question, answers }) {
-    console.log('====================================');
-    console.log('Question: ', question, answers);
-    console.log('====================================');
+function Question({ quest }) {
+    const { question, answers, toadValues } = quest;
     return (
         <article>
-            <h2>{question}</h2>
-            <Answers answers={answers} />
+            <h3>{question}</h3>
+            <Answers values={answers} toadValues={toadValues} />
         </article>
     );
 }
 
 Question.propTypes = {
-    answers: PropTypes.arrayOf(PropTypes.string).isRequired,
-    question: PropTypes.string.isRequired,
+    quest: PropTypes.shape({
+        answers: PropTypes.arrayOf(PropTypes.string),
+        id: PropTypes.string,
+        question: PropTypes.string,
+    }),
 };
 
 export default Question;

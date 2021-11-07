@@ -3,7 +3,7 @@ import React from 'react';
 // import useQuiz from '../../hooks/useQuiz';
 import RadioOption from './RadioOption';
 
-function Answers({ answers }) {
+function Answers({ values }) {
     // const { handleChange, handleSubmit } = useQuiz();
 
     const handleSubmit = (e) => {
@@ -14,17 +14,15 @@ function Answers({ answers }) {
     const handleAnswer = (e) => {
         const { name, value } = e.target;
         console.log('selectedAnswer: ', `${name}: ${value}`);
+        console.log('====================================');
+        console.log('Option: ', e.target);
+        console.log('====================================');
     };
 
     return (
         <form onSubmit={handleSubmit}>
-            {answers.map((ans, idx) => (
-                <RadioOption
-                    answer={ans}
-                    onChange={handleAnswer}
-                    key={idx}
-                    id={idx}
-                />
+            {values.map((ans, idx) => (
+                <RadioOption answer={ans} onChange={handleAnswer} key={idx} />
             ))}
             <button>Submit</button>
         </form>
@@ -32,7 +30,7 @@ function Answers({ answers }) {
 }
 
 Answers.propTypes = {
-    answers: PropTypes.arrayOf(PropTypes.string).isRequired,
+    values: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default Answers;
