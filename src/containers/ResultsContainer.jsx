@@ -15,7 +15,7 @@ export function ResultsContainer() {
 
     return (
         <>
-            <div className="flex justify-center p-10">
+            <div className="flex justify-center p-10 bg-cream">
                 <div className="flex flex-col max-w-3xl rounded shadow-lg h-full w-full p-10 bg-cream">
                     <img className="w-full" src={frog.url} alt={frog.name} />
                     <p className="p-5 font-Quicksand font-bold">
