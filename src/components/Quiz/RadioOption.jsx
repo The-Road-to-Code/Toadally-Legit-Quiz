@@ -1,17 +1,18 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+// import PropTypes from 'prop-types';
+// import React from 'react';
 
-function RadioOption({ answer, onChange }) {
-    return (
-        <li>
-            <button onClick={onChange}>{answer}</button>
-        </li>
-    );
-}
+// function RadioOption({ answer, value, onChange }) {
+//     return (
+//         <li>
+//             <button onClick={onChange}>{answer}</button>
+//         </li>
+//     );
+// }
 
-RadioOption.propTypes = {
-    answer: PropTypes.string,
-    onChange: PropTypes.func.isRequired,
-};
+// RadioOption.propTypes = {
+//     answer: PropTypes.string,
+//     onChange: PropTypes.func.isRequired,
+//     value: PropTypes.number,
+// };
 
-export default RadioOption;
+// export default RadioOption;
