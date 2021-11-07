@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav className="flex justify-between bg-red-500 items-center h-15 bg-white text-black relative shadow-sm sticky top-0">
+        <nav className="flex justify-between bg-babyblue items-center h-15 bg-white text-black relative shadow-sm sticky top-0">
             <Link to="/" className="pl-8">
                 <img src={frog1} alt="sad frog in rain" className="h-14" />
             </Link>

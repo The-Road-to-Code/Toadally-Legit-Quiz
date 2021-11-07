@@ -3,11 +3,11 @@ import React from 'react';
 const Footer = () => {
     return (
         <section className="fixed bottom-0 w-screen">
-            <div className="flex justify-evenly items-center bg-red-500  h-10 text-black ">
+            <div className="flex justify-evenly items-center bg-babyblue  h-10 text-black ">
                 <h5 className="text-xs">
                     Images courtesy of:
                     <a
-                        className="hover:bg-green-500 "
+                        className="hover:bg-green hover:text-white "
                         href="http://www.cristinaaucone.com/"
                     >
                         {' '}
