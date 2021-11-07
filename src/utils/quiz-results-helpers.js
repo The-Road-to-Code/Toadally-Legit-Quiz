@@ -1,6 +1,4 @@
-const fakeResults = [0, 3, 1];
-
-function getToadals(resultsArr, questions) {
+export function getToadals(resultsArr, questions) {
     let toadValuesLength = questions[0].toadValues[0].length;
     let toadals = new Array(toadValuesLength).fill(0);
 
@@ -15,13 +13,8 @@ function getToadals(resultsArr, questions) {
     return toadals;
 }
 
-function getFrog(totalsArr, frogsArr) {
+export function getFrog(totalsArr, frogsArr) {
     const max = Math.max(...totalsArr);
     const frogIndex = totalsArr.indexOf(max);
     return frogsArr[frogIndex];
 }
-
-// should return 7
-
-const totalsArr = getToadals(fakeResults, questions);
-console.log(getFrog(totalsArr, frogs));
