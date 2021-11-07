@@ -38,6 +38,8 @@ export function ResultsContainer() {
                                 <a
                                     className="font-Montserrat hover:bg-blue-400 hover:text-white"
                                     href={hobby.url}
+                                    target="_blank"
+                                    rel="noreferrer"
                                 >
                                     {hobby.hobbyType}
                                 </a>
