@@ -3,90 +3,267 @@
         "name": "Picnic",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227380/frogs/Picnic-Frog.png",
         "suggestedHobbies": [
-            "eating",
-            "watching ants"
+            {
+                "hobbyType": "Bug Collecting",
+                "url": "https://www.entsoc.org/"
+            },
+            {
+                "hobbyType": "Board Games",
+                "url": "https://boardgamegeek.com/forums"
+            },
+            {
+                "hobbyType": "Kite Flying",
+                "url": "https://www.kite.org/"
+            },
+            {
+                "hobbyType": "BBQ Cooking",
+                "url": "https://traveloregon.com/things-to-do/events/culinary-events/bbq-blues-brews-by-the-bay/"
+            }
         ],
-        "summary": "You are a picnic frog. You like Picnics."
+        "twitterImage": "https://twitter.com/_codeRunner_/status/1457172028557971458/photo/1",
+        "summary": "Hello Picnic Frog! You love dining alfresco, cheep wine and good times. The best day is a sunny one with a killer sunset. You are a romantic at heart. Bugs are cool and not creepy. You also love checkered tablecloths. Your lucky number is 1"
     },
     {
         "name": "Canoe",
         "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227380/frogs/Canoe-Frog.png",
         "suggestedHobbies": [
+<<<<<<< HEAD
             "paddelling",
             "rowing",
             "watching ducks"
         ],
         "summary": "You are a canoe frog, you like canoeing"
-    },
-    {
-        "name": "Halloween",
-        "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227454/frogs/Halloween-Frog.png",
-        "suggestedHobbies": [
-            "eating candy",
-            "goth dance clubs",
-            "pumpkin carving"
-        ],
-        "summary": "You are a Halloween frog, you like Halloween"
-    },
-    {
-        "name": "Car",
-        "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227498/frogs/Car-Frog.png",
-        "suggestedHobbies": [
+=======
+            {
+            "hobbyType": "Canoeing",
+            "url": "https://paddling.com/"
+        },
+        {
+            "hobbyType": "Fishing",
+            "url": "https://www.fisheries.noaa.gov/"
+        },
+        {
+            "hobbyType": "Windsurfing",
+            "url": "https://wx.iwindsurf.com/"
+        },
+        {
+            "hobbyType": "White Water Rafting",
+            "url": "https://www.americanwhitewater.org/"
+        }
+    ],
+    "twitterImage": "https://twitter.com/_codeRunner_/status/1457171853890383878/photo/1",
+    "summary": "Hello Canoe Frog! You love being on top of the water, floating, and chillin'. Sunny days on the lake are so fun. You like to go with the flow and take it easy. You probally like the color green. Paddle on my friend. Your lucky number is 3"
+>>>>>>> e6e5a95cbfbec5ba3ba308c52be1b5836767c1a1
+},
+{
+    "name": "Halloween",
+    "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227454/frogs/Halloween-Frog.png",
+    "suggestedHobbies": [
+        {
+            "hobbyType": "Goth Dancing",
+            "url": "https://unpopcultures.com/intro-to-goth"
+        },
+        {
+            "hobbyType": "Fishing",
+            "url": "https://www.fisheries.noaa.gov/"
+        },
+        {
+            "hobbyType": "Cosplay",
+            "url": "https://www.kamuicosplay.com/"
+        },
+        {
+            "hobbyType": "Community Theater",
+            "url": "https://aact.org/"
+        }
+    ],
+    "twitterImage": "https://twitter.com/_codeRunner_/status/1457171168356536325/photo/1",
+    "summary": "Hello Theater Frog!! You love to dress up, wear fun costumes! Must have glitter and sequins. Sometimes you make your own clothes, and throw the best theme parties! Everyone wants to ge on your guest list. You also dance the night away. Your lucky number is 62"
+},
+{
+    "name": "Car",
+    "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227498/frogs/Car-Frog.png",
+    "suggestedHobbies": [
+<<<<<<< HEAD
             "driving",
-            "road trips",
-            "travel"
-        ],
-        "summary": "You are a car frog, you like cars"
+        "road trips",
+        "travel"
+    ],
+    "summary": "You are a car frog, you like cars"
+=======
+            {
+        "hobbyType": "Slot Car Racing",
+        "url": "http://www.slotcartalk.com/slotcartalk/forum.php"
     },
     {
-        "name": "Snorkel",
-        "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227566/frogs/Swimming-Frog.png",
-        "suggestedHobbies": [
-            "Scuba diving",
-            "Underwater wrecks",
-            "Surfacing"
-        ],
-        "summary": "You are a snorkel frog, you like snorkeling"
+        "hobbyType": "Roadside Attractions",
+        "url": "https://www.atlasobscura.com/categories/roadside-attractions"
     },
     {
-        "name": "Camping",
-        "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227621/frogs/Camping-Frog.png",
-        "suggestedHobbies": [
-            "Fishing",
-            "Board games",
-            "Skipping stones"
-        ],
-        "summary": "You enjoy the cold nights, and crisp mornings, large green trees, camping gear, fire, stargazing, and turning off your phone."
+        "hobbyType": "Classic Car Rebuilding",
+        "url": "https://www.classiccarcommunity.com/"
     },
     {
-        "name": "Snow",
-        "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227674/frogs/Snow-Frog.png",
-        "suggestedHobbies": [
-            "Snowboarding",
-            "Snowshoeing",
-            "Sledding"
-        ],
-        "twitterImage": "https://twitter.com/_codeRunner_/status/1457099678223257604/photo/1",
-        "summary": "You enjoy the cold, snow, wearing beanies and fast adventure. You thrive in wearing lots of layers and drinking hot cocoa at the end of your adventure."
-    },
-    {
-        "name": "Rain",
-        "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227708/frogs/Rain-Frog.png",
-        "suggestedHobbies": [
-            "puddle jumping",
-            "storm chasing"
-        ],
-        "twitterImage": "https://twitter.com/_codeRunner_/status/1457099187825246209/photo/1",
-        "summary": "You are rain frog, you like rain"
-    },
-    {
-        "name": "Star",
-        "url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227745/frogs/Stars-Frog.png",
-        "twitterImage": "https://twitter.com/_codeRunner_/status/1457088007408807937/photo/1",
-        "suggestedHobbies": [
-            "astronomy",
-            "star gazing"
-        ],
-        "summary": "You are a star frog, you like star"
+        "hobbyType": "Car Racing",
+        "url": "https://www.scca.com/pages/on-track"
     }
+],
+"twitterImage": "https://twitter.com/_codeRunner_/status/1457170425658499079/photo/1",
+"summary": "Hello Driving Frog! You love the wind, fast cars, and the open road. Why stay in one place, when there is so much to see. Gas up, petal to the metal and zooooommmmm! Your lucky number is 66"
+>>>>>>> e6e5a95cbfbec5ba3ba308c52be1b5836767c1a1
+},
+{
+"name": "Snorkel",
+"url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227566/frogs/Swimming-Frog.png",
+"suggestedHobbies": [
+<<<<<<< HEAD
+            "Scuba diving",
+    "Underwater wrecks",
+    "Surfacing"
+],
+"summary": "You are a snorkel frog, you like snorkeling"
+=======
+            {
+    "hobbyType": "Finding Ship Wrecks",
+    "url": "https://www.deeperblue.com/the-wonderful-world-of-wrecks/"
+},
+{
+    "hobbyType": "Scuba Diving",
+    "url": "https://www.deeperblue.com/"
+},
+{
+    "hobbyType": "Underwater Hockey",
+    "url": "https://www.cmas.org/hockey/about-hockey"
+},
+{
+    "hobbyType": "Underwater Photography",
+    "url": "https://wetpixel.com/forums/index.php"
+}
+],
+"twitterImage": "https://twitter.com/_codeRunner_/status/1457169994945466368/photo/1",
+"summary": "Hello Swimming Frog! You love being underwater, always! Looking at the pretty fish. Algae and rocks are pretty cool. You love getting lost. Life on land is so silly. Your lucky number is 2"
+>>>>>>> e6e5a95cbfbec5ba3ba308c52be1b5836767c1a1
+},
+{
+"name": "Camping",
+"url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227621/frogs/Camping-Frog.png",
+"suggestedHobbies": [
+<<<<<<< HEAD
+            "Fishing",
+"Board games",
+"Skipping stones"
+],
+"summary": "You enjoy the cold nights, and crisp mornings, large green trees, camping gear, fire, stargazing, and turning off your phone."
+=======
+            {
+"hobbyType": "Bird Watching",
+"url": "https://www.birdwatchingdaily.com/"
+},
+{
+"hobbyType": "Tree Identifying",
+"url": "https://www.arborday.org/trees/whattree/"
+},
+{
+"hobbyType": "Spelunking",
+"url": "https://caves.org/"
+},
+{
+"hobbyType": "Skipping Stones",
+"url": "https://stoneskipping.com/"
+}
+],
+"twitterImage": "https://twitter.com/_codeRunner_/status/1457169188095627265/photo/1",
+"summary": "Hello Camping Frog! You enjoy cold nights, and crisp mornings. Large green trees are the best trees. Birds everywhere! Camping gear is your go to. Plaid, fires, and turning off your phone are some of your favorite things."
+>>>>>>> e6e5a95cbfbec5ba3ba308c52be1b5836767c1a1
+},
+{
+"name": "Snow",
+"url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227674/frogs/Snow-Frog.png",
+"suggestedHobbies": [
+<<<<<<< HEAD
+            "Snowboarding",
+"Snowshoeing",
+"Sledding"
+=======
+            {
+"hobbyType": "Snowboarding",
+"url": "https://www.skiresort.info/ski-resorts/usa/"
+},
+{
+"hobbyType": "Skiing",
+"url": "https://miro.com/app/board/o9J_lmGqQoc=/?moveToWidget=3074457367092066331&cot=10"
+},
+{
+"hobbyType": "Ice Fishing",
+"url": "https://fishingbooker.com/blog/ice-fishing-destinations/"
+},
+{
+"hobbyType": "Sledding",
+"url": "https://miro.com/app/board/o9J_lmGqQoc=/?moveToWidget=3074457367092066331&cot=10"
+}
+>>>>>>> e6e5a95cbfbec5ba3ba308c52be1b5836767c1a1
+],
+"twitterImage": "https://twitter.com/_codeRunner_/status/1457099678223257604/photo/1",
+"summary": "Hello Snow Frog! You enjoy the cold, snow, wearing beanies and fast adventure. You thrive in wearing lots of layers and drinking hot cocoa at the lodge. Your lucky number is 12.   "
+},
+{
+"name": "Rain",
+"url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227708/frogs/Rain-Frog.png",
+"suggestedHobbies": [
+<<<<<<< HEAD
+            "puddle jumping",
+"storm chasing"
+=======
+            {
+"hobbyType": "Storm Chasing",
+"url": "https://stormtrack.org/community/"
+},
+{
+"hobbyType": "Meteorology",
+"url": "https://www.nationalgeographic.org/encyclopedia/meteorology/"
+},
+{
+"hobbyType": "Build A Weather Station",
+"url": "https://www.earthsciweek.org/classroom-activities/build-your-own-weather-station"
+},
+{
+"hobbyType": "Umbrella Collecting",
+"url": "https://www.collectorsweekly.com/accessories/umbrellas"
+}
+>>>>>>> e6e5a95cbfbec5ba3ba308c52be1b5836767c1a1
+],
+"twitterImage": "https://twitter.com/_codeRunner_/status/1457099187825246209/photo/1",
+"summary": "Hello Rainy Froggy! You love water, the color teal, and umbrellas. Stormy days are your favorite days. The sound of lighting brings you so much joy. Go hop in those puddles! Your lucky number is 342"
+},
+{
+"name": "Star",
+"url": "https://res.cloudinary.com/dyefz2bep/image/upload/v1636227745/frogs/Stars-Frog.png",
+"suggestedHobbies": [
+{
+"hobbyType": "Stargazing",
+"url": "https://skyandtelescope.org/community/"
+},
+{
+"hobbyType": "UFO Sightings",
+"url": "https://mufon.com/"
+},
+{
+"hobbyType": "Rocketry",
+"url": "https://www.nar.org/"
+},
+{
+"hobbyType": "Satellite Building",
+"url": "https://www.jpl.nasa.gov/edu/teach/activity/build-a-satellite/"
+}
+],
+"twitterImage": "https://twitter.com/_codeRunner_/status/1457088007408807937/photo/1",
+<<<<<<< HEAD
+        "suggestedHobbies": [
+"astronomy",
+"star gazing"
+],
+"summary": "You are a star frog, you like star"
+=======
+        "summary": "Hello Star Frog. You like the darkness. Goth music and wearing all black. Sometimes happy, sometimes whatever, you just go with the flow. Aliens are real. Keep looking up, my friend. Your lucky number is 223"
+>>>>>>> e6e5a95cbfbec5ba3ba308c52be1b5836767c1a1
+}
 ]
